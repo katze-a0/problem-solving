@@ -1,0 +1,44 @@
+# Sample Competition Questions: Permutations & Combinations
+
+## Question 1: Password Generator
+A password consists of exactly 8 characters, where:
+- Each character must be either a digit (0-9) or an uppercase letter (A-Z)
+- The password must contain at least 2 digits
+- The digits in the password must be in strictly increasing order
+- The same letter can be used multiple times
+
+Write a program to find how many possible valid passwords exist.
+
+Example explanation:
+- A2B5C7DE is valid (digits 2,5,7 are in increasing order)
+- AB12C3DE is invalid (digits 1,2,3 are not in strictly increasing order)
+- ABCDEFGH is invalid (doesn't contain 2 digits)
+
+## Question 2: Team Formation
+In a class of 30 students, a team needs to be formed with the following criteria:
+- The team must have exactly 5 students
+- At least 2 of them must be from the Mathematics club (which has 12 members)
+- At least 1 must be from the Computer Science club (which has 15 members)
+- 5 students are members of both clubs
+- 8 students are not in either club
+
+Write a program to calculate the total number of different possible team combinations.
+
+## Question 3: Circular Seating
+There are N friends (N ≤ 15) who want to sit around a circular table for dinner. However:
+- Alice and Bob must sit next to each other
+- Charlie cannot sit next to David
+- Eve must sit exactly opposite to Frank (if N is even)
+
+Given N and the names of all friends, calculate the number of possible seating arrangements that satisfy all conditions.
+
+Note: Rotations of the same arrangement are considered the same arrangement.
+
+## Question 4: Color Pattern
+You have unlimited tiles of 4 different colors (Red, Blue, Green, Yellow). You need to create a line of exactly N tiles (N ≤ 20) following these rules:
+- No two adjacent tiles can be of the same color
+- Red tiles cannot be next to Blue tiles
+- There must be at least one tile of each color
+- The pattern must start with either Green or Yellow
+
+Calculate the number of possible valid patterns for a given N.

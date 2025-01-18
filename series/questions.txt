@@ -1,0 +1,58 @@
+
+# Sequence and Series Competition Problems
+
+## Problem 1: Arithmetic Sequence Sum with Powers
+Consider an arithmetic sequence where each term is squared before being added to the sum. 
+The sequence starts with a=2 and has a common difference d=3. Find the sum of the squared terms 
+up to the point where any individual term (before squaring) exceeds 50.
+
+Example for first few terms:
+- First term: 2² = 4
+- Second term: 5² = 25
+- Third term: 8² = 64
+...and so on.
+
+## Problem 2: Geometric Sequence Pattern Match
+Start with a geometric sequence where a=3 and r=2. Generate terms until you exceed 1000.
+ For each term in this sequence, count how many digits in that term are even numbers. 
+ Find the sum of all terms in the sequence that have exactly 2 even digits.
+
+Example of digit counting:
+- 3 has 0 even digits
+- 6 has 1 even digit
+- 12 has 1 even digit
+- 24 has 2 even digits
+...and so on.
+
+## Problem 3: Modified Fibonacci Challenge
+Create a modified Fibonacci sequence where each new term is the sum of the previous three terms
+ (instead of two). Starting with 1, 2, 3, find the sum of all terms that are divisible by both 
+ 3 and 4 until a term exceeds 1,000,000.
+
+Example of first few terms:
+1, 2, 3, 6, 11, 20, 37...
+
+## Problem 4: Interleaved Sequences
+Consider two sequences:
+- Sequence A: Arithmetic sequence starting at 2 with difference 3
+- Sequence B: Geometric sequence starting at 3 with ratio 2
+
+Create an interleaved sequence by alternating between the sequences (A1, B1, A2, B2, A3, B3...). 
+Find the sum of all terms in this interleaved sequence that are prime numbers, until you've used the
+ first 10 terms from each original sequence.
+
+## Problem 5: Sequence with Conditions
+Generate a sequence where each term is calculated as follows:
+- If the previous term is even: multiply it by 3 and add 1
+- If the previous term is odd: divide it by 2 (integer division)
+
+Starting with 10, find the sum of all terms until the sequence reaches 1 or exceeds 10000 terms.
+
+Example of first few terms:
+10 → 31 → 15 → 7 → 3 → 1
+
+For each problem:
+- Time Limit: 30 minutes
+- Points: 20
+- Partial points may be awarded for correct approach with minor calculation errors
+- All answers must be written in the provided answer sheet

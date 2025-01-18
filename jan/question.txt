@@ -1,0 +1,84 @@
+# Clash of Code - Competition Questions
+
+## Problem 1: Pythagorean Quads
+Find all sets of four positive integers (a,b,c,d) that satisfy:
+a² + b² + c² = d²
+where 1 ≤ a,b,c ≤ 100 and d ≤ 200
+
+**Output Required:** Calculate the sum of all unique 'd' values found.
+
+**Example:**
+If we had a smaller range of 1 ≤ a,b,c ≤ 5:
+One valid quad would be (3,4,0,5) since 3² + 4² + 0² = 25 = 5²
+
+## Problem 2: Projectile Path Points
+A projectile is launched with initial velocity v = 50 m/s at angle θ = 45°. 
+Assuming g = 9.81 m/s², find how many integer coordinate points (x,y) the projectile passes through, where both x and y are positive integers.
+
+**Equations you may need:**
+- x = v₀t cos(θ)
+- y = v₀t sin(θ) - (1/2)gt²
+- Maximum height = v₀²sin²(θ)/2g
+- Time of flight = 2v₀sin(θ)/g
+- Range = v₀²sin(2θ)/g
+
+**Output Required:** The count of integer coordinate points (x,y) the projectile passes through before hitting the ground.
+
+## Problem 3: Prime Pattern Sum
+Generate a sequence where each term is the sum of two prime numbers that add up to the term's position number.
+
+**Rules:**
+- Each position number must be represented as the sum of two prime numbers
+- If multiple prime pairs exist for a position, use the pair with the smallest first prime
+- Consider positions from 1 to 1000
+
+**Example:**
+- Position 4: 2+2=4
+- Position 5: 2+3=5
+- Position 6: 3+3=6
+
+**Output Required:** Sum of all valid terms from position 1 to 1000
+
+## Problem 4: Triangle Combinations
+Given a set of points: (0,0), (0,1), (1,0), (1,1), (2,0), (2,1), (2,2)
+
+Find:
+1. Number of possible triangles with area greater than 0.5 square units
+2. Number of possible triangles with at least one right angle
+
+**Area formula:** Area = |(x₁(y₂ - y₃) + x₂(y₃ - y₁) + x₃(y₁ - y₂))|/2
+
+**Output Required:** (Number of triangles satisfying condition 1) × (Number of triangles satisfying condition 2)
+
+## Problem 5: Series Pattern Recognition
+Generate a sequence where each term follows this rule:
+- If n is even: term = n × (sum of prime factors of n)
+- If n is odd: term = n × (sum of all factors of n)
+
+**Example:**
+- For n=4: prime factors are 2,2 so term = 4 × (2+2) = 16
+- For n=9: factors are 1,3,9 so term = 9 × (1+3+9) = 117
+
+**Output Required:** Sum of first 100 terms in this sequence
+
+## Competition Rules & Guidelines
+
+1. Time Limit: 2 hours
+2. Programming Languages Allowed: C, C++, Python, or Java
+3. Each solution should be written in code and output the final answer
+4. No external libraries or internet resources allowed
+5. All solutions must handle edge cases properly
+6. Code should be optimized but there are no strict time/space complexity requirements
+7. Submit only the final numerical answer for each problem
+8. Team members can collaborate and split tasks
+9. Comment your code for clarity
+10. Test your code with sample cases before submission
+
+## Scoring
+
+- Each question carries equal marks
+- Full marks for correct answer
+- No partial marks
+- Time taken will be considered in case of ties
+
+Good luck to all participants!

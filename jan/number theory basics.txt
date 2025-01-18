@@ -1,0 +1,147 @@
+# Number Theory Competition Problems
+
+## Problem Set Overview
+This set contains 5 problems focusing on fundamental number theory concepts. Each problem tests different aspects like prime numbers, factors, divisors, and number properties.
+
+## Time Allocation
+- Total time: 2 hours
+- Recommended time per problem: 20-25 minutes
+
+## Problem 1: Sum of Prime Factors
+Find the sum of all distinct prime factors of 13195.
+
+**Example:**
+```
+For number 28:
+- Prime factors are 2,2,7
+- Distinct prime factors are 2,7
+- Sum = 2 + 7 = 9
+```
+
+**Requirements:**
+- Consider only distinct prime factors
+- Return the sum as a single integer
+- Handle the number efficiently for larger inputs
+
+## Problem 2: Perfect Divisor Count
+A number is called 'perfect' if it equals the sum of its proper divisors (divisors excluding the number itself).
+
+**Example:**
+```
+For number 28:
+- Proper divisors are 1,2,4,7,14
+- Sum = 1 + 2 + 4 + 7 + 14 = 28
+Therefore, 28 is a perfect number
+```
+
+**Task:** Find how many numbers between 1 and 10000 are perfect numbers.
+
+## Problem 3: Prime Gap Analysis
+A prime gap is the difference between two successive prime numbers.
+
+**Example:**-
+```
+Gap between 2 and 3 is 1
+Gap between 3 and 5 is 2
+Gap between 5 and 7 is 2
+```
+
+**Task:** 
+1. Find the largest prime gap between successive primes below 1000000
+2. Count how many times this gap appears
+3. Multiply these two numbers for the final answer
+
+## Problem 4: Digital Root Factors
+The digital root of a number is found by repeatedly summing its digits until a single digit is obtained.
+
+**Example:**
+```
+For 789:
+7 + 8 + 9 = 24
+2 + 4 = 6
+Digital root is 6
+```
+
+**Task:** Find the sum of all numbers from 1 to 10000 where:
+1. The number is divisible by its digital root
+2. The number has exactly 4 factors (including 1 and itself)
+
+## Problem 5: Coprime Chain
+Two numbers are coprime if their greatest common divisor (GCD) is 1.
+A coprime chain is a sequence where each number is coprime with the next number.
+
+**Example:**
+```
+[2,3,5] is a valid chain because:
+- GCD(2,3) = 1
+- GCD(3,5) = 1
+```
+
+**Task:** Find the length of the longest possible coprime chain using numbers from 1 to 100 where:
+- Each number must be coprime with the next number
+- Difference between any two consecutive numbers must not exceed 5
+
+## Evaluation Criteria
+
+### Scoring:
+- Each question carries 20 points
+- Full marks for correct answer only
+- No partial marking
+- Time efficiency will be considered for tiebreakers
+
+### Code Requirements:
+1. Must be written in C, C++, Python, or Java
+2. Should handle all edge cases
+3. Must be original work (no plagiarism)
+4. Should include basic error handling
+5. Must output only the final numerical answer
+
+## Sample Solution Structure (Python)
+```python
+def is_prime(n):
+    if n < 2:
+        return False
+    for i in range(2, int(n ** 0.5) + 1):
+        if n % i == 0:
+            return False
+    return True
+
+def get_factors(n):
+    factors = []
+    for i in range(1, int(n ** 0.5) + 1):
+        if n % i == 0:
+            factors.append(i)
+            if i != n // i:
+                factors.append(n // i)
+    return sorted(factors)
+
+def gcd(a, b):
+    while b:
+        a, b = b, a % b
+    return a
+
+# Main solution structure
+def solve_problem():
+    # Your solution logic here
+    result = 0
+    return result
+
+if __name__ == "__main__":
+    print(solve_problem())
+```
+
+## Testing Guidelines
+1. Test with sample cases first
+2. Verify edge cases
+3. Check time efficiency
+4. Validate output format
+5. Double-check numerical accuracy
+
+## Tips for Success
+1. Read the problem carefully
+2. Plan your approach before coding
+3. Use efficient algorithms
+4. Test thoroughly
+5. Optimize if time permits
+
+Good luck!
