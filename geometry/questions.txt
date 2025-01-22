@@ -1,0 +1,24 @@
+Basic Geometry Problems
+Problem 1: Triangle Hunter
+In a 20×20 grid of points with integer coordinates:
+
+Find the number of triangles with vertices on grid points
+Area must be exactly 20 square units
+All sides must have integer length
+
+Problem 2: Circle Intersection
+Given n circles where each circle:
+
+Has integer coordinates for center (x,y)
+Has integer radius r
+Find the number of points with integer coordinates that lie on exactly two circles.
+Input: First 3 circles are: (0,0,5), (5,0,5), (0,5,5)
+Consider total 5 circles with coordinates and radii ≤ 10.
+
+Problem 3: Rectangle Rotation
+Given a rectangle with:
+
+Width = 6 units
+Height = 8 units
+Center at origin (0,0)
+As it rotates 360°, find the number of integer coordinate points that the perimeter passes through exactly once.

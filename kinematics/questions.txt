@@ -1,0 +1,29 @@
+Kinematics Problems
+Problem 1: Multi-Ball Collision
+Three balls are thrown from origin (0,0):
+
+Ball A: 30° angle, 15 m/s velocity
+Ball B: 45° angle, 20 m/s velocity
+Ball C: 60° angle, 25 m/s velocity
+Find the earliest time (rounded to 3 decimals) when any two balls reach the same point.
+Use g = 9.81 m/s²
+
+Problem 2: Target Practice
+A target moves in a straight line:
+
+Starting at point (10,0)
+Constant velocity 5 m/s in x-direction
+A ball is thrown from origin (0,0) to hit the target.
+Find the initial velocity and angle (rounded to 2 decimals) that hits the target in minimum time.
+Use g = 9.81 m/s²
+
+Problem 3: Bounce and Catch
+A ball is thrown upward at angle θ from point (0,0):
+
+It bounces perfectly elastically from a wall at x=10
+After bounce, it should land at point (0,0)
+Find:
+The angle θ (in degrees, rounded to 2 decimals)
+Initial velocity (rounded to 2 decimals)
+Time taken for complete journey (rounded to 2 decimals)
+Use g = 9.81 m/s²

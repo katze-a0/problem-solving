@@ -54,7 +54,7 @@ int main() {
             vector<int> br;  // binary representation
             conv(f[i][j], br);
             cb.push_back(br);
-        }
+        }                                                
         b.push_back(cb);
     }
 

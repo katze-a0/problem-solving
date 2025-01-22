@@ -66,3 +66,29 @@ Consider Pythagorean triplets (a,b,c) where:
 - The difference between c and this average is a Fibonacci number
 Find all such triplets where a, b, and c are less than 500.
 Calculate the sum of all unique values that appear in these triplets.
+
+
+//NEW set of questions
+Pythagorean Triplets Problems
+Problem 1: Special Triplets
+Find all Pythagorean triplets (a,b,c) where:
+
+a < b < c ≤ 1000
+The sum of digits of c is prime
+b is a perfect square
+Sum all such values of c.
+
+Problem 2: Triplet Chains
+A Pythagorean chain is formed when:
+
+Each triplet shares one number with the next triplet
+The shared number must be in the same position (a,b, or c)
+Find the longest possible chain using numbers ≤ 500.
+
+Problem 3: Modified Triplets
+Find all sets of four positive integers (a,b,c,d) where:
+
+a² + b² = c²
+b² + c² = d²
+All numbers are ≤ 100
+Output the sum of all unique values of d.
