@@ -12,7 +12,7 @@ for(i=1;i<=10;i++){
 if(10%i==0){
     sum+=i;
 }
-
+                                 
 }
 cout<<"Sum = "<<sum;
 

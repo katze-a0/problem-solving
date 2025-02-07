@@ -30,8 +30,8 @@ for(int i=2;i<num;i++){
 if(flag==0){
     a.insert(num);
 }
-flag=0;
-num++;}
+flag=0; 
+num++;}  //each num lai prime hoki nai check garne..
 
 set<int>::iterator it=a.begin();
 
@@ -53,3 +53,4 @@ cout<<"size="<<a.size();
 
     return 0;
 }
+
